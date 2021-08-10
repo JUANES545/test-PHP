@@ -7,4 +7,9 @@ class Format{
     {
         return strtoupper($value);//Función para usar Capital Letters
     }
+
+    public static function lowerText($value)
+    {
+        return strtolower($value);//Función para usar Letters
+    }
 }
