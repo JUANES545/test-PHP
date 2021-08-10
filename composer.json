@@ -1,11 +1,24 @@
 {
-    "name": "juan-mejia/text",
+    "name": "juane/php",
+    "description": "init composer",
+    "type": "library",
+    "require": {
+        "jenssegers/date": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit-mock-objects": "6.1.x-dev"
+    },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "text\\": "src/"
-        },
-        "files": [
-            "src/helpers.php"
-        ]
-    }
+            "Juane\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Mejía",
+            "email": "juanes.reich@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }
